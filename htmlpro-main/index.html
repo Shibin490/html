@@ -25,14 +25,56 @@
     <div class="main_container">
       <div class="heroheader">
         <div class="brandname">
-          <input type="checkbox" id="check" hidden>
+
+
+          <!-- Hamburger Icon for Mobile -->
+          <input type="checkbox" id="check">
           <label class="open" for="check"><i class="fa-solid fa-bars"></i></label>
+
+          <!-- Close Button -->
+          <label class="close" for="check"><i class="fa-solid fa-x"></i></label>
+
+          <!-- Navigation List (hamburger dropdown) -->
+          <div class="ham-list">
+            <li><a class="ham-nav_hov" href="#">Home</a></li>
+            <li class="ham-layer1">
+              <a class="ham-nav_hov" href="#">Product <i><span
+                    class="material-symbols-outlined">arrow_drop_down</span></i></a>
+              <ul class="ham-dropdown1">
+                <li><a class="ham-dropdpwn2_nav" href="#">product1</a></li>
+                <li class="ham-layer2">
+                  <a class="ham-dropdpwn2_nav" href="#">product2</a>
+                  <ul class="ham-dropdown2">
+                    <li><a class="ham-dropdpwn2_nav" href="#">product2.1</a></li>
+                    <li><a class="ham-dropdpwn2_nav" href="#">product2.2</a></li>
+                    <li><a class="ham-dropdpwn2_nav" href="#">product2.3</a></li>
+                  </ul>
+                </li>
+                <li><a class="ham-dropdpwn2_nav" href="#">product3</a></li>
+              </ul>
+            </li>
+            <li><a class="ham-nav_hov" href="#">Pricing</a></li>
+            <li><a class="ham-nav_hov" href="#">Contact</a></li>
+          </div>
           <h3>MedicalBetter</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Navigation List -->
           <div class="list">
             <li><a class="nav_hov" href="#">Home</a></li>
-            <li class="layer1"><a class="nav_hov" href="#">Product <i>
-                  <span class="material-symbols-outlined"> arrow_drop_down</span>
-                </i></a>
+            <li class="layer1"><a class="nav_hov" href="#">Product <i><span
+                    class="material-symbols-outlined">arrow_drop_down</span></i></a>
               <ul class="dropdown1">
                 <li><a class="dropdpwn2_nav" href="#">product1</a></li>
                 <li class="layer2"><a class="dropdpwn2_nav" href="#">product2</a>
@@ -42,22 +84,24 @@
                     <li><a class="dropdpwn2_nav" href="#">product2.3</a></li>
                   </ul>
                 </li>
-                <li><a a class="dropdpwn2_nav" href="#">product3</a></li>
+                <li><a class="dropdpwn2_nav" href="#">product3</a></li>
               </ul>
             </li>
             <li><a class="nav_hov" href="#">Pricing</a></li>
             <li><a class="nav_hov" href="#">Contact</a></li>
-            <label class="close" for="check"><i class="fa-solid fa-x"></i></i></label>
+
+
           </div>
         </div>
+
+        <!-- Buttons -->
         <div class="button">
-          <button class="button transparentBtn"> Login</button>
-          <button class="button filled_btn"> JOIN US <i class="fa-solid fa-arrow-right"></i> </button>
+          <button class="button transparentBtn">Login</button>
+          <button class="button filled_btn">JOIN US <i class="fa-solid fa-arrow-right"></i></button>
         </div>
       </div>
     </div>
   </header>
-
   <!----------------------================-section 1-==============------------ -->
 
   <section class="main_bg">
