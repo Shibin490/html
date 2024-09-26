@@ -71,6 +71,9 @@
     .navbar {
         padding: 10px;
     }
+    .button.filled_btn{
+        padding: 10px 30px 10px 30px;
+    }
 
 
 
@@ -120,6 +123,10 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .button.filled_btn{
+        padding: 10px 30px 10px 30px;
+    }
+
 
     .button .transparentBtn {
         display: none !important;
@@ -290,6 +297,9 @@
         padding: 5px;
 
     }
+    .contentside {
+        line-height: 0px;
+    }
 
     /* .list {
         padding-left: 38px;
@@ -372,6 +382,10 @@
         width: 100% !important;
         text-align: center;
     }
+    .contentside {
+        line-height: 0px;
+    }
+
 
     .topside h3 {
         font-size: 15px !important;
